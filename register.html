@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Registration Form<br><span>สมัครสมาชิก</span></h2>
+
+    <form>
+        <label>รหัสนักศึกษา:</label>
+        <input type="text">
+
+        <label>ชื่อ:</label>
+        <input type="text">
+
+        <label>นามสกุล:</label>
+        <input type="text">
+
+        <label>ที่อยู่:</label>
+        <textarea></textarea>
+
+        <label>จังหวัด:</label>
+        <select>
+            <option>-- เลือกจังหวัด --</option>
+            <option>กรุงเทพมหานคร</option>
+            <option>เชียงใหม่</option>
+            <option>ขอนแก่น</option>
+        </select>
+
+        <label>วันเกิด:</label>
+        <input type="date">
+
+        <label>เบอร์โทรศัพท์:</label>
+        <input type="tel">
+
+        <label>File upload:</label>
+        <input type="file">
+
+        <div class="btn-group">
+            <button class="btn-submit">Submit</button>
+            <button class="btn-cancel" type="reset">Cancel</button>
+        </div>
+    </form>
+</div>
+
+<!-- ตารางข้อมูล -->
+<h3>รายชื่อผู้ลงทะเบียน</h3>
+<table>
+    <tr>
+        <th>รหัส</th>
+        <th>ชื่อ</th>
+        <th>นามสกุล</th>
+    </tr>
+    <tr>
+        <td>65001</td>
+        <td>สมชาย</td>
+        <td>ใจดี</td>
+    </tr>
+    <tr>
+        <td>65002</td>
+        <td>สมหญิง</td>
+        <td>ตั้งใจ</td>
+    </tr>
+    <tr>
+        <td>65003</td>
+        <td>อนันต์</td>
+        <td>ขยัน</td>
+    </tr>
+</table>
+
+<!-- Resume -->
+<div class="resume">
+    <h2>Resume</h2>
+    <p><strong>ชื่อ:</strong> สมชาย ใจดี</p>
+    <p><strong>การศึกษา:</strong> ปริญญาตรี สาขาเทคโนโลยีสารสนเทศ</p>
+    <p><strong>ทักษะ:</strong> HTML, CSS, JavaScript</p>
+    <p><strong>ประสบการณ์:</strong> ฝึกงานด้านพัฒนาเว็บ</p>
+</div>
+
+</body>
+</html>
